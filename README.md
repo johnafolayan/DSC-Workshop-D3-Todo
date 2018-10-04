@@ -50,17 +50,17 @@ If the matric number already belongs to a student, user should receive the messa
 Expected result: Sola Adesokan - 17 years
 
 
-Sample endpoint: _/students/001/firstName_
+**Sample endpoint: _/students/001/firstName_**
 
 Expected result: Sola
 
 
-Sample endpoint: _/students/001/lastName_
+**Sample endpoint: _/students/001/lastName_**
 
 Expected result: Adesokan
 
 
-Sample endpoint: _/students/001/age_
+**Sample endpoint: _/students/001/age_**
 
 Expected result: 17
 
@@ -74,13 +74,13 @@ Expected result: Sola Adesokan has been changed to Jude Adesokan
 
 The endpoint above should change Sola's first name to Jude
 
-Sample endpoint: _/students/edit/001/lastName/King_
+**Sample endpoint: _/students/edit/001/lastName/King_**
 
 Expected result: Sola Adesokan has been changed to Sola King
 
 The endpoint above should change Sola's last name to King
 
-Sample endpoint: _/students/edit/001/age/16_
+**Sample endpoint: _/students/edit/001/age/16_**
 
 Expected result: Sola's age has been changed to 16
 
