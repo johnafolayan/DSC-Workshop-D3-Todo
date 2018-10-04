@@ -33,18 +33,18 @@ var records = {
 The API implemented should be capable of doing the following:
 
 
-1. #### Creating a student's info
+#### Creating a student's info
 
 **Sample endpoint: _/students/create/001/David/Sanda/12_**
 
 Expected result: A new student with name David Sanda, and age 12, has been created.
 
 If the matric number already belongs to a student, user should receive the message, "Matric number already exists".
+<hr>
 
 
 
-
-2. #### Retrieving a student's info
+#### Retrieving a student's info
 
 **Sample endpoint: _/students/001_**
 
@@ -54,7 +54,7 @@ Expected result: Sola Adesokan - 17 years
 **Sample endpoint: _/students/001/firstName_**
 
 Expected result: Sola
-
+<hr>
 
 **Sample endpoint: _/students/001/lastName_**
 
@@ -64,11 +64,11 @@ Expected result: Adesokan
 **Sample endpoint: _/students/001/age_**
 
 Expected result: 17
+<hr>
 
 
 
-
-3. #### Editing a student's info
+#### Editing a student's info
 
 **Sample endpoint: _/students/edit/001/firstName/Jude_**
 
@@ -87,11 +87,11 @@ The endpoint above should change Sola's last name to King
 Expected result: Sola's age has been changed to 16
 
 The endpoint above should change Sola's age to 16
+<hr>
 
 
 
-
-4. #### Deleting a student's info
+#### Deleting a student's info
 
 **Sample endpoint: _/students/delete/001_**
 
