@@ -33,7 +33,7 @@ var records = {
 The API implemented should be capable of doing the following:
 
 
-#### Creating a student's info
+1. #### Creating a student's info
 
 **Sample endpoint: _/students/create/001/David/Sanda/12_**
 
@@ -43,7 +43,8 @@ If the matric number already belongs to a student, user should receive the messa
 
 
 
-#### Retrieving a student's info
+
+2. #### Retrieving a student's info
 
 **Sample endpoint: _/students/001_**
 
@@ -66,7 +67,8 @@ Expected result: 17
 
 
 
-#### Editing a student's info
+
+3. #### Editing a student's info
 
 **Sample endpoint: _/students/edit/001/firstName/Jude_**
 
@@ -88,7 +90,8 @@ The endpoint above should change Sola's age to 16
 
 
 
-#### Deleting a student's info
+
+4. #### Deleting a student's info
 
 **Sample endpoint: _/students/delete/001_**
 
